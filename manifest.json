@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Chess Background Orange",
+  "description": "Changes the background of chess.com to orange.",
+  "version": "1.0",
+  "permissions": [
+    "https://www.chess.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.chess.com/*"
+      ],
+      "css": [
+        "style.css"
+      ]
+    }
+  ]
+}
+
